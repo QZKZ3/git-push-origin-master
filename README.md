@@ -1,6 +1,6 @@
 # Project aims
 
-1.Enrich the global picture
+1. Enrich the global picture
 
 2. Aid data interpretation
 
