@@ -1,74 +1,26 @@
-# Data analysis
-- Document here the project: ht_project
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+#Project aims
 
-Please document the project the better you can.
+1.Enrich the global picture
 
-# Startup the project
+2. Aid data interpretation
 
-The initial setup.
+3. Encourage data sharing
 
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
+# Description
+By using NLP to extract key intelligence from survivor testimonies, and by combining this with existing datasets on human trafficking, this project aims to show that data science can:
+1. Enrich the currently sparse global picture of human trafficking by allowing the collection of data that would be too cumbersome/costly to collect manually
+2. Aid data interpretation, finding patterns that would perhaps be overlooked if assessed by humans alone
+3. Encourage more organisations to share their data, even if it is unstructured, by showing the richness of information that can be obtained from each survivor story, and highlighting the value of this information to disruption efforts
 
-Unittest test:
-```bash
-make clean install test
-```
 
-Check for ht_project in gitlab.com/{group}.
-If your project is not set please add it:
+# Data
+Two sources of Data:
+1. Nottingham University Rights Lab: 1,300+ testimonies from survivors of human trafficking
+2. Counter Trafficking Data Collaborative (CTDC) 90,000+ anonymised case records
 
-- Create a new project on `gitlab.com/{group}/ht_project`
-- Then populate it:
 
-```bash
-##   e.g. if group is "{group}" and project_name is "ht_project"
-git remote add origin git@github.com:{group}/ht_project.git
-git push -u origin master
-git push -u origin --tags
-```
+# Website 
+You can view the website on this URL
+https://share.streamlit.io/lampu98/ht_project/app.py
 
-Functionnal test with a script:
 
-```bash
-cd
-mkdir tmp
-cd tmp
-ht_project-run
-```
-
-# Install
-
-Go to `https://github.com/{group}/ht_project` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/ht_project.git
-cd ht_project
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-ht_project-run
-```
