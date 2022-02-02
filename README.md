@@ -26,5 +26,6 @@ You can view the website on this URL
 https://share.streamlit.io/lampu98/ht_project/app.py
 
 
-## Creators / Future Work
-This project was created by Paloma Aragón Trujillo, Lena Garrett, Sofia Giordano and Andrea Lampugnani. If you would like to take inspiration from the project and its code, you are very welcome to do so on the condition that you acknowledge this project and its creators in your work.
+
+### Creators / Future Work
+This project was created by Paloma Aragón Trujillo, Lena Garrett, Sofia Giordano and Andrea Lampugnani. If you would like to take inspiration from the project and its code, you are very welcome to do so on the condition that you acknowledge this project and its creators.
